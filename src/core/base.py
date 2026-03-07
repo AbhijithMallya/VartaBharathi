@@ -12,10 +12,10 @@ class Email(ABC):
         self.username = username
 
     @abstractmethod
-    def send(self,reciever: str,
+    def send(self, receiver: str,
              content: str,
-             attachements: Optional[list[str]]=None
-             )->None:
+             attachments: Optional[list[str]] = None
+             ) -> None:
         """
         Send an email.
 
