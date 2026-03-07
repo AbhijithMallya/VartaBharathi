@@ -3,7 +3,7 @@ from typing import Optional
 
 class NewspaperDownloader(ABC):
     @abstractmethod
-    def download(self, date: str) -> str:
+    def download(self, date: str) -> None :
         pass
 
 
