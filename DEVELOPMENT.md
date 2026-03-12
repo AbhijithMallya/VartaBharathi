@@ -11,6 +11,7 @@ Phase 1
 ----
 [] - Dataset Preparation
     [✅] - Download Newspaper
+    [✅] - Convert pages to images 
     [] - LabelIMG setup and annotation
 [] - Training Document Layout Model using Detectron
 [] - News article extraction
